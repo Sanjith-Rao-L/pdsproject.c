@@ -747,8 +747,8 @@ int equation()
    printf("\n*************************************");   
    printf("\nOptions:");
    printf("\n1. Linear Equation in 1 Variable");
-   printf("\n2. Linear Equation in 2 Variables");
-   printf("\n3. Linear Equation in 3 Variables");
+   printf("\n2. Linear Equations in 2 Variables");
+   printf("\n3. Linear Equations in 3 Variables");
    printf("\n4. Quadratic Equation");
    printf("\n5. Exit");
    printf("\nEnter your choice: ");
