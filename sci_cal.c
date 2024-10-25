@@ -127,14 +127,14 @@ void mod()
         printf("\nEnter a number: ");
         scanf("%lld", &a);
         answer %= a;
-        printf("\nResult = %d",answer);
+        printf("\nResult = %lld",answer);
     }
     else
     {
         printf("\nEnter number 1: ");
-        scanf("%lf", &a);
+        scanf("%lld", &a);
         printf("\nEnter number 2: ");
-        scanf("%lf", &b);
+        scanf("%lld", &b);
         answer = a % b;
         printf("\nResult = %lld", answer);
     }
