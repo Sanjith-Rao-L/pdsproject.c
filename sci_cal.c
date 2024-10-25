@@ -436,10 +436,12 @@ void lin1var()
         }
     }
 
+    else 
+    {
     float x = -b / a;
 
     printf("Solution: x = %f\n", x);
-
+    }
 }
 
 void lin2var()
