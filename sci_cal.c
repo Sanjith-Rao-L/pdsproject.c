@@ -622,8 +622,8 @@ void cal()
     while(1)
     {
         printf("\n*************************************");
-        printf("\n Previous Decimal Result = %f", result);
-        printf("\n Previous Integer Result = %d\n", answer);
+        printf("\n Previous Decimal Result = %lf", result);
+        printf("\n Previous Integer Result = %lld\n", answer);
 
      switch(calculate())
         {
